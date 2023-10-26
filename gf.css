@@ -1,0 +1,25 @@
+.gridcontainer{
+    display:grid;
+    grid-template-columns: auto auto;
+    gap: 5px;
+}
+div{
+    background-color: aqua;
+    margin: 2px;
+    border: 5px solid brown;
+    padding: 5px;
+}
+.d5{
+    background-color: rgb(123, 130, 159) !important;
+    margin: 2px;
+    border: 5px solid brown;
+    padding: 5px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    text-align: center;
+}
+.flex{
+    display:flex;
+    flex-wrap: wrap;
+    
+}
